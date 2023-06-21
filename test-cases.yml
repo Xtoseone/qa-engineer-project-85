@@ -1,0 +1,1709 @@
+---
+- summary: |
+    Проверка кнопки  Codebattle by Hexlet’s community  на главной странице
+  requirement: |
+    Тестируемое требование. Например: При верном вводе логине и пароля пользователь должен войти в систему
+  prerequisites: |
+    Это условия, которые необходимы для проведения тест-кейса. Они должны быть выполнены еще до запуска тест-кейса.
+    Например: открыта страница логина
+  test-data: |
+    Тестовые данные
+    Логин = ilona Пароль = password
+  steps:
+    - Вводим логин
+    - Вводим пароль
+    - Нажимаем кнопку «Войти»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+    
+    
+    
+    
+    
+    
+    
+    
+- summary: |
+    Проверка кнопки  Codebattle by Hexlet’s community  на главной странице
+  requirement: |
+    При нажатии на кнопку происходит обновление страницы
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/
+  test-data: |
+    []
+  steps:
+    - Нажимаем на кнопку Codebattle by Hexlet’s community
+  expected-result: |
+    Страница должна обновиться
+    
+- summary: |
+    Проверка кнопки  Try simple battle на главной странице
+  requirement: |
+    При нажатии на кнопку начинается battle
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/
+  test-data: |
+    []
+  steps:
+    - Нажимаем на кнопку Try simple battle
+  expected-result: |
+    При нажатии на кнопку начинается battle
+    
+- summary: |
+    Проверка Sign in в Header
+  requirement: |
+    При нажатии на кнопку открывается страница входа с полями email и password
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/
+  test-data: |
+    []
+  steps:
+    - Нажимаем на кнопку Sign in
+  expected-result: |
+    При нажатии на кнопку открывается страница входа с полями email и password
+    
+- summary: |
+    Проверка Sign Up в Header
+  requirement: |
+    При нажатии на кнопку открывается страница регистрации с полями Nickname, email и password
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/
+  test-data: |
+    []
+  steps:
+    - Нажимаем на кнопку Sign Up
+  expected-result: |
+    При нажатии на кнопку открывается страница регистрации с полями Nickname, email и password
+    
+- summary: |
+    Проверка адаптации страницы к различным размерам экранов
+  requirement: |
+    При использовании разных размеров экранов как desctop так и mobile информация должна корректо отображаться
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/
+  test-data: |
+    []
+  steps:
+    - Визуально оцениваем состояние страницы, используя различные девайсы и размеры экрана
+  expected-result: |
+    При использовании разных размеров экранов как desctop так и mobile информация должна корректо отображаться  
+    
+- summary: |
+    Проверка иконок профиля пользователей внизу страницы Contributors
+  requirement: |
+    При использовании кнопки профиля должна открываться страница пользователя на github
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/ и прокручена до низа
+  test-data: |
+    []
+  steps:
+    - нажать на любую иконку пользователя в меню Contributors
+  expected-result: |
+    При использовании кнопки профиля должна открываться страница пользователя на github  
+    
+- summary: |
+    Проверка кнопки Codebattle в Contributors
+  requirement: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/ и прокручена до низа
+  test-data: |
+    []
+  steps:
+    - нажать на Codebattle в Contributors
+  expected-result: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github      
+    
+- summary: |
+    Проверка кнопки Battle asserts в Contributors
+  requirement: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/ и прокручена до низа
+  test-data: |
+    []
+  steps:
+    - нажать на Battle asserts в Contributors
+  expected-result: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github     
+    
+ - summary: |
+    Проверка кнопки Chrome extension в Contributors
+  requirement: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/ и прокручена до низа
+  test-data: |
+    []
+  steps:
+    - нажать на Chrome extension в Contributors
+  expected-result: |
+    При использовании кнопки профиля должна открываться соответствующая страница на github        
+    
+- summary: |
+    Проверка кнопки  Try simple battle на главной странице внизу страницы
+  requirement: |
+    При нажатии на кнопку начинается battle
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/ и прокручена до низа
+  test-data: |
+    []
+  steps:
+    - Нажимаем на кнопку Try simple battle
+  expected-result: |
+    При нажатии на кнопку начинается battle    
+    
+- summary: |
+    Проверка кнопки  запросов на главной странице
+  requirement: |
+    Все запросы должны иметь статус 200 
+  prerequisites: |
+    []
+  test-data: |
+    https://codebattle.hexlet.io/
+  steps:
+    - открываем линк и проверяем запросы
+  expected-result: |
+    Все запросы должны иметь статус 200       
+    
+- summary: |
+    Проверка регистрации пользователя 
+  requirement: |
+    При заполнении всех полей верными данными пользователь будет зарегистрирован 
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    Nickname:TestTestTest email: testhexlet.tester@gmail.com pass: 1234567890
+  steps:
+    - воодим данные и нажимаем submit
+  expected-result: |
+    При заполнении всех полей верными данными пользователь будет зарегистрирован
+    
+- summary: |
+    Проверка регистрации пользователя через Гитхаб
+  requirement: |
+    При нажатии на кнопку Sign in with Github пользователь будет залогинен через Гитхаб
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    []
+  steps:
+    - нажимаем на кнопку Sign in with Github
+  expected-result: |
+    При нажатии на кнопку Sign in with Github пользователь будет залогинен через Гитхаб  
+    
+- summary: |
+    Проверка регистрации пользователя через Discord
+  requirement: |
+    При нажатии на кнопку Sign in with Discord пользователь будет залогинен через стороннее API Discord
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    []
+  steps:
+    - нажимаем на кнопку Sign in with Discord
+  expected-result: |
+    При нажатии на кнопку Sign in with Discord пользователь будет залогинен через Discord
+    
+- summary: |
+    Проверка регистрации пользователя неправильные данные
+  requirement: |
+    При заполнении всех полей не верными данными пользователь не будет зарегистрирован и появятся ошибки в полях с неправильными данными
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    Nickname: TestTestTest-фвпфывп-фыв.....фыа12134 email: testhexlet......testerъъъъъъъъъъъъъъъъъъъъъ pass: 666
+  steps:
+    - воодим данные и нажимаем submit
+  expected-result: |
+    При заполнении всех полей не верными данными пользователь не будет зарегистрирован и появятся ошибки в полях с неправильными данными
+        
+- summary: |
+    Проверка регистрации пользователя отправка пустых полей
+  requirement: |
+    При отправке пустых полей пользователь не будет зарегистрирован и появятся ошибки в полях с неправильными данными
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    []
+  steps:
+    - нажимаем submit
+  expected-result: |
+    При  отправке пустых полей пользователь не будет зарегистрирован и появятся ошибки в полях с неправильными данными    
+    
+- summary: |
+    Проверка формы входа в систему
+  requirement: |
+    При отправке пустых полей пользователь не будет залогинен и появятся ошибки в полях
+  prerequisites: |
+    открыта страница Sign In https://codebattle.hexlet.io/session/new?next=/
+  test-data: |
+    []
+  steps:
+    - нажимаем submit
+  expected-result: |
+    При отправке пустых полей пользователь не будет залогинен и появятся ошибки в полях
+    
+- summary: |
+    Проверка формы входа в систему c верными данными
+  requirement: |
+    При отправке верных данных произойдет вход в систему
+  prerequisites: |
+    открыта страница Sign In https://codebattle.hexlet.io/session/new?next=/
+  test-data: |
+    email: testhexlet.tester@gmail.com pass: 1234567890
+  steps:
+    - нажимаем submit
+  expected-result: |
+    При отправке верных данных произойдет вход в систему 
+    
+- summary: |
+    Проверка формы входа в систему c не верными данными
+  requirement: |
+    При отправке не верных данных вход в систему не произойдет
+  prerequisites: |
+    открыта страница Sign In https://codebattle.hexlet.io/session/new?next=/
+  test-data: |
+    email: 3кафыафац3к2к34е4пкупцып pass: 123
+  steps:
+    - нажимаем submit
+  expected-result: |
+    При отправке не верных данных вход в систему не произойдет  
+    
+- summary: |
+    Проверка кнопки Codebattle by Hexlet’s community в Header в лобби
+  requirement: |
+    Codebattle by Hexlet’s community должна обновлять страницу
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io/#lobby пользователь залогинен
+  test-data: |
+    []
+  steps:
+    - нажимаем Codebattle by Hexlet’s community
+  expected-result: |
+    Codebattle by Hexlet’s community должна обновлять страницу     
+    
+- summary: |
+    Проверка лобби по URL пользователь не залогинен
+  requirement: |
+    При вводе URL lobby если пользователь не залогинен должна открываться главная страница
+  prerequisites: |
+    открыта страница https://codebattle.hexlet.io
+  test-data: |
+    https://codebattle.hexlet.io/#lobby
+  steps:
+    - используй https://codebattle.hexlet.io/#lobby в URL
+  expected-result: |
+    При вводе URL lobby если пользователь не залогинен должна открываться главная страница      
+    
+- summary: |
+    Проверка кнопки invites в Header 
+  requirement: |
+    При использовании кнопки invites должны отображаться актуальные данные
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby пользователь залогинен
+  test-data: |
+    []
+  steps:
+    - используй invites btn
+  expected-result: |
+    При использовании кнопки invites должны отображаться актуальные данныe
+    
+- summary: |
+    Проверка кнопки My Profile в Header
+  requirement: |
+    При использовании кнопки My Profile должна отображаться страница профиля с актуальными данными
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby пользователь залогинен
+  test-data: |
+    []
+  steps:
+    - используй My Profile
+  expected-result: |
+    При использовании кнопки My Profile должна отображаться страница профиля с актуальными данными   
+    
+- summary: |
+    Проверка кнопки Setting
+  requirement: |
+    При использовании кнопки Setting должна отображаться страница Setting с актуальными данными
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby пользователь залогинен
+  test-data: |
+    []
+  steps:
+    - используй Setting
+  expected-result: |
+    При использовании кнопки Setting должна отображаться страница профиля с актуальными данными    
+    
+- summary: |
+    Проверка поле Your name странница Setting
+  requirement: |
+    Пользователь должен иметь возможность сменить имя
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    Test
+  steps:
+    - изменить имя на Test
+    - use the Save btn
+  expected-result: |
+    Пользователь должен иметь возможность сменить имя     
+    
+- summary: |
+    Проверка the dropdown Your Weapons странница Setting
+  requirement: |
+    Пользователь должен иметь возможность сменить язык программирования
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    []
+  steps:
+    - изменить на Python
+    - use the Save btn
+  expected-result: |
+    Пользователь должен иметь возможность сменить язык программирования
+    
+- summary: |
+    Проверка поле Your name странница Setting wrong data
+  requirement: |
+    Пользователь не должен иметь возможность использвать более 16 символов
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    Test12444444444444444444444444444444444444444
+  steps:
+    - изменить имя на Test12444444444444444444444444444444444444444
+    - use the Save btn
+  expected-result: |
+    Появляется ошибка о превышении количества сиволов
+    
+- summary: |
+    Проверка поле Your name странница Setting wrong data
+  requirement: |
+    Пользователь не должен иметь возможность отправлять пустую форму
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    []
+  steps:
+    - delete name
+    - use the Save btn
+  expected-result: |
+    Field can't be empty  
+    
+- summary: |
+    Проверка checkboxes Select sound type
+  requirement: |
+    Пользователь Должен иметь возможность изменять звуковое сопровождение и громкость
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    []
+  steps:
+    - выбрать CS
+    - Использовать микшер громкости на max
+    - use the Save btn
+  expected-result: |
+    Пользователь Должен иметь возможность изменять звуковое сопровождение и громкость
+    
+- summary: |
+    Проверка Link Github
+  requirement: |
+    Link Github отправляет на соответствующую страницу в github
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    []
+  steps:
+    - use Link Github
+  expected-result: |
+    Link Github отправляет на соответствующую страницу в github 
+    
+- summary: |
+    Проверка Link Discord
+  requirement: |
+    Link Discord отправляет на соответствующую страницу в discord
+  prerequisites: |
+    https://codebattle.hexlet.io/settings
+  test-data: |
+    []
+  steps:
+    - use Link Discord
+  expected-result: |
+    Link Discord отправляет на соответствующую страницу в discord    
+    
+- summary: |
+    Проверка Users rating
+  requirement: |
+    Users rating должна отображать актуальную таблицу рейтинга
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - open https://codebattle.hexlet.io/users
+  expected-result: |
+    Users rating должна отображать актуальную таблицу рейтинга
+    
+- summary: |
+    Проверка time filters weekly/monthly/total 
+  requirement: |
+    time filters weekly/monthly/total должены отображать актуальные данные за выбранный период
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - use weekly
+    - use monthly
+    - use total
+  expected-result: |
+    time filters weekly/monthly/total должены отображать актуальные данные за выбранный период
+    
+- summary: |
+    Проверка  Search panel right data
+  requirement: |
+    Search panel при вводе правильных данных должен показывать только актуальные данные
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    ace
+  steps:
+    - input ace to the Search panel
+  expected-result: |
+    Search panel при вводе правильных данных должен показывать только актуальные данные   
+    
+- summary: |
+    Проверка  Search panel wrong data
+  requirement: |
+    Search panel при вводе не правильных данных не должен отображать что-либо
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    99999
+  steps:
+    - input 99999 to the Search panel
+  expected-result: |
+    Search panel при вводе не правильных данных не должен отображать что-либо
+    
+- summary: |
+    Проверка различных фильтров на странице Users rating
+  requirement: |
+    При использовании нескольких фильтров пользователь должен получить только актуальные данные
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - Users per page 50
+    - use With bots checkbox
+    - use Joined 
+  expected-result: |
+    При использовании нескольких фильтров пользователь должен получить только актуальные данные
+    
+- summary: |
+    Проверка сортировки на странице Users rating
+  requirement: |
+    При использовании сортировки Rank/Rating/Games played/Joined в таблице информация должна отображаться соответственно выбранной сортироки
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - по очереди использовать каждую сортировку Rank/Rating/Games played/Joined
+  expected-result: |
+    При использовании сортировки Rank/Rating/Games played/Joined в таблице информация должна отображаться соответственно выбранной сортироки
+
+- summary: |
+    Проверка кнопки Profile в стобце User
+  requirement: |
+    При использовании кнопки должна открываться страница выбранного пользователя с его статистикой
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - выбери и нажми на никнейм любого пользователя 
+  expected-result: |
+    При использовании кнопки должна открываться страница выбранного пользователя с его статистикой
+    
+- summary: |
+    Проверка кнопки Github в соответствующей колонке
+  requirement: |
+    При использовании кнопки должна открываться страница выбранного пользователя на github
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - выбери и нажми на кнопку любого пользователя 
+  expected-result: |
+    При использовании кнопки должна открываться страница выбранного пользователя на github  
+    
+- summary: |
+    Проверка пагинации
+  requirement: |
+    При использовании пагинации страница должна переключаться
+  prerequisites: |
+    https://codebattle.hexlet.io/users
+  test-data: |
+    []
+  steps:
+    - выбери и нажми на последнюю страницу пагинации
+    - выбери 3ю страницу пагинации
+    - выбери 1ую страницу пагинации
+  expected-result: |
+    При использовании пагинации страница должна переключаться
+   
+- summary: |
+    Проверка кнопки Сreate new task на странице Task
+  requirement: |
+    При использовании кнопки открывается форма с созданием новой задачи
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks
+  test-data: |
+    []
+  steps:
+    - нажать на Сreate new task на странице Task
+  expected-result: |
+    При использовании кнопки открывается форма с созданием новой задачи
+
+- summary: |
+    Проверка кнопки back на странице new Task
+  requirement: |
+    При использовании кнопки пользователь должен вернуться на предыдущую страницу
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks/new
+  test-data: |
+    []
+  steps:
+    - нажать на back на странице new Task
+  expected-result: |
+    При использовании кнопки пользователь должен вернуться на предыдущую страницу
+
+- summary: |
+    Проверка отправки пустой формы на странице new Task
+  requirement: |
+    При отправке пустой формы пользователь должен получить ошибку в форме can't be blank
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks/new
+  test-data: |
+    []
+  steps:
+    - use save btn
+  expected-result: |
+    При отправке пустой формы пользователь должен получить ошибку в форме can't be blank
+
+- summary: |
+    Проверка отправки неправильных данных на странице new Task
+  requirement: |
+    При отправке неправильных данных пользователь должен получить ошибку
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks/new
+  test-data: |
+    666
+  steps:
+    - введи 666 в каждое поле и нажми save btn
+  expected-result: |
+    При отправке неправильных данных пользователь должен получить ошибку
+
+- summary: |
+    Проверка отправки неправильных данных на странице new Task
+  requirement: |
+    При отправке неправильных данных пользователь должен получить ошибку
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks/new
+  test-data: |
+    666
+  steps:
+    - введи 666 в каждое поле и нажми save btn
+  expected-result: |
+    При отправке неправильных данных пользователь должен получить ошибку
+
+- summary: |
+    Проверка кнопки Task packs
+  requirement: |
+    При использовании кнопки Task packs должно произойти переключение на Task с соответствующими данными. Если пользователь не создал Task то таблица будет пустой
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks
+  test-data: |
+    []
+  steps:
+    - Нажми на Task pacs
+  expected-result: |
+    При использовании кнопки Task packs должно произойти переключение на Task с соответствующими данными. Если пользователь не создал Task то таблица будет пустой
+
+- summary: |
+    Проверка кнопки show
+  requirement: |
+    При использовании кнопки show должна открыться страница соответствующего таска с описанием
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks
+  test-data: |
+    []
+  steps:
+    - Use any show btn
+  expected-result: |
+    При использовании кнопки show должна открыться страница соответствующего таска с описанием
+
+- summary: |
+    Проверка кнопки back в таске
+  requirement: |
+    При использовании кнопки back должна открыться страница Tasks
+  prerequisites: |
+    https://codebattle.hexlet.io/tasks/6334657
+  test-data: |
+    []
+  steps:
+    - Use back btn
+  expected-result: |
+    При использовании кнопки back должна открыться страница Tasks
+
+- summary: |
+    Проверка страницы Tournament
+  requirement: |
+    При использовании кнопки Tournament в Profile открывается соответствующая страница с формой создания турнира 
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    []
+  steps:
+    - use the Tournaments btn
+  expected-result: |
+    При использовании кнопки Tournament в Profile открывается соответствующая страница с формой создания турнира
+
+- summary: |
+    Проверка отправки пустой формы на странице Tournament
+  requirement: |
+    При отправки пустой формы на странице Tournament пользователь получает ошибку Tournaments can`t start in the past!
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    []
+  steps:
+    - use create btn
+  expected-result: |
+    При отправки пустой формы на странице Tournament пользователь получает ошибку Tournaments can`t start in the past!
+    
+- summary: |
+    создания турнира типа individual
+  requirement: |
+    При создании турнира и вводе верных данных будет создан соответствующий турнир
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    []
+  steps:
+    - use actual date Ex: tomorrow
+    - use create
+  expected-result: |
+    При создании турнира и вводе верных данных будет создан соответствующий турнир 
+
+- summary: |
+    создания турнира типа team
+  requirement: |
+    При выборе team турнира отображаются дополнительные настройки: Team 1 name/Team 2 name/Rounds to win после заполнения всех полей верными данными создается соответствующий турнир
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    []
+  steps:
+    - use Type team
+    - use actual data
+    - use creat
+  expected-result: |
+    При создании турнира и вводе верных данных будет создан соответствующий турнир 
+
+- summary: |
+    создания турнира типа stairway
+  requirement: |
+    При выборе stairway турнира отображаются дополнительные настройки: Rounds limit после заполнения всех полей верными данными создается соответствующий турнир
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    []
+  steps:
+    - use Type stairway
+    - use actual data
+    - use creat
+  expected-result: |
+    При создании турнира и вводе верных данных будет создан соответствующий турнир
+
+- summary: |
+    проверка input полей на странице Tournaments
+  requirement: |
+    Все input меню имеют ограничение по символам (48) кроме  Match timeout in seconds (здесь ограничение по значению 1-1000)
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+  test-data: |
+    тесттесттесттесттесттесттетесттесттесттесттетесттесттесттесттетесттесттесттесттетесттесттесттесттетесттесттесттесттетесттесттесттестте
+  steps:
+    - выбрать тип team 
+    - ввести в поле Name {test-data}
+    - ввести в поле Match timeout in seconds {test-data}
+    - ввести в поле Team 1 name {test-data}
+    - ввести в поле Team 2 name {test-data}
+    - use create
+  expected-result: |
+    При создании турнира пользователь получит сообщение об ошибке please enter a number в input menu Match timeout in seconds
+
+- summary: |
+    проверка input поля Match timeout in seconds на странице Tournaments - отрицательное значение
+  requirement: |
+    при вводе в Match timeout in seconds отрицательного значения должно появить сообщение об ошибке
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+    нужно быть залогиненым
+  test-data: |
+    -100
+  steps:
+    - ввести в поле Match timeout in seconds {test-data}
+    - use create
+  expected-result: |
+    При создании турнира пользователь получит сообщение об ошибке please select a value is no less than 1
+
+- summary: |
+    проверка input поля Match timeout in seconds на странице Tournaments - значение>1000
+  requirement: |
+    при вводе в Match timeout in seconds >1000 должно появить сообщение об ошибке
+  prerequisites: |
+    https://codebattle.hexlet.io/tournaments
+    нужно быть залогиненым
+  test-data: |
+    10000000000000
+  steps:
+    - ввести в поле Match timeout in seconds {test-data}
+    - use create
+  expected-result: |
+    При создании турнира пользователь получит сообщение об ошибке please select a value is no more than 1000
+    
+- summary: |
+    проверка линков Sourcecode/Hexlet/Join Discord/Tg#codebattle в меню profile
+  requirement: |
+    при открытии каждого линка должен открываться соответствующий сайт
+  prerequisites: |
+    https://codebattle.hexlet.io
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - использовать линк Sourcecode
+    - использовать линк Hexlet
+    - использовать линк Join Discord
+    - использовать линк Tg#codebattle
+  expected-result: |
+    При открытии каждого линка должен открываться соответствующий сайт   
+    
+- summary: |
+    проверка кнопки sign out
+  requirement: |
+    при использованиии кнопки пользователь должен выйти из аккаунта
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - использовать sign out
+  expected-result: |
+    при при использованиии кнопки пользователь должен выйти из аккаунта
+
+- summary: |
+    проверка вкладок lobby/tournamets/completed games/leadearboard
+  requirement: |
+    во всех вкладках должна быть актуальная информация
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - check leadearboard
+    - check lobby
+    - check tournaments
+    - check completed games
+  expected-result: |
+    во всех вкладках должна быть актуальная информация
+
+- summary: |
+    проверка create a game
+  requirement: |
+    при использовании кнопки create a game должен открыться модал с настройками создания новой игры
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - use create a game
+  expected-result: |
+    при использовании кнопки create a game должен открыться модал с настройками создания новой игры
+    
+- summary: |
+    проверка модала create a game
+  requirement: |
+    при создании игры и выборе различных настроек, созданная игра должна иметь соответствующие настройки
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    открыт модал create a game
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - use level 3
+    - with other users
+    - time control 45 min
+    - select add_two_number в choose task by name or tags
+    - select tags math and rest
+  expected-result: |
+    при создании игры и выборе различных настроек, созданная игра должна иметь соответствующие настройки   
+    
+- summary: |
+    Проверка time filter в leaderboard 
+  requirement: |
+    при выборе фильтра week/month/all должны отображаться актуальные данные
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - use week filter
+    - use month filter
+    - use all filter
+
+  expected-result: |
+    при выборе фильтра week/month/all должны отображаться актуальные данные  
+
+- summary: |
+    Проверка открытия профиля пользователя в Leaderboard 
+  requirement: |
+    при открытия профиля пользователя в Leaderboard открывается соответствующая страница
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и кликнуть по никнейму
+  expected-result: |
+    при открытия профиля пользователя в Leaderboard открывается соответствующая страница
+
+- summary: |
+    Проверка Top list в Leaderboard
+  requirement: |
+    при использовании кнопки top list открывается страница users rating
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - нажать на кнопку top list
+  expected-result: |
+    при использовании кнопки top list открывается страница users rating
+    
+- summary: |
+    Проверка профиля пользователя в меню lobby
+  requirement: |
+    при нажатии на профиль любого пользователя в Lobby должна открываться соответствующая страница
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и кликнуть по никнейму
+  expected-result: |
+    при нажатии на профиль любого пользователя в Lobby должна открываться соответствующая страница 
+
+- summary: |
+    Проверка кнопки Continue
+  requirement: |
+    при нажатии кнопку Continue должна продолжиться созданная или начатая схватка
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    создать матч или присоедениться и выйти из него
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - нажать на кнопку Continue в lobby
+  expected-result: |
+    при нажатии кнопку Continue должна продолжиться созданная или начатая схватка
+    
+- summary: |
+    Проверка кнопки Fight
+  requirement: |
+    при нажатии кнопку Fight должна начаться схватка
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - нажать на кнопку fight в lobby
+  expected-result: |
+    при нажатии кнопку Fight должна начаться схватка
+
+- summary: |
+    Переключение general/Notification в чате на странице lobby
+  requirement: |
+    чат должен переключаться на соответствующий
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать Notification 
+  expected-result: |
+    чат должен переключаться на соответствующий
+    
+- summary: |
+    отправка сообщений в чате
+  requirement: |
+    Пользователь должен иметь возможность отправлять сообщения 
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - написать hello в чат 
+  expected-result: |
+    Пользователь должен иметь возможность отправлять сообщения
+   
+- summary: |
+    Взаимодействие с профилем пользователя, который находится в онлайне
+  requirement: |
+    При нажатии на никнейм пользователя должено открываться контекстное меню
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+  expected-result: |
+    При нажатии на никнейм пользователя должено открываться контекстное меню
+    
+- summary: |
+    Copy name в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  requirement: |
+    При нажатии на Copy name в контекстном меню имя пользователя должно копироваться без рейтинга в скобках
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на Copy name
+  expected-result: |
+    При нажатии на Copy name в контекстном меню имя пользователя должно копироваться без рейтинга в скобках
+    
+- summary: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  requirement: |
+    При нажатии на info в контекстном меню должна открываться страница профиля пользователя
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на info
+  expected-result: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+
+- summary: |
+    direct messege в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  requirement: |
+    При нажатии на direct messege в контекстном меню чат должен переключаться на приватный и у пользователя должна быть возможность отправлять личные сообщения
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на direct messege
+    - отправить hello
+  expected-result: |
+    При нажатии на direct messege в контекстном меню чат должен переключаться на приватный и у пользователя должна быть возможность отправлять личные сообщения 
+
+- summary: |
+    send an invite в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  requirement: |
+    При нажатии на send an invite в контекстном меню должно отправляться приглашение на матч при условии что вы не находитесь в матче
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на send an invite
+  expected-result: |
+    При нажатии на send an invite в контекстном меню должно отправляться приглашение на матч при условии что вы не находитесь в матче
+
+- summary: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей когда пользователь уже находится матче
+  requirement: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей когда пользователь уже находится матче
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+  expected-result: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей когда пользователь уже находится матче
+
+- summary: |
+    Попробовать открыть второй матч подряд
+  requirement: |
+    При попытке начать второй матч при не завершенном первом появляется ошибка already_in_a_game
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - начать матч любым способом (Ex: fight btn)
+    - use the back to Home btn 
+    - Попробовать открыть второй матч (Ex: fight btn)
+  expected-result: |
+    При попытке начать второй матч при не завершенном первом появляется ошибка already_in_a_game
+
+- summary: |
+    проверка Current version link
+  requirement: |
+    при нажатии на Current version link открывается страница github
+  prerequisites: |
+    https://codebattle.hexlet.io/#lobby
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - нажать Current version link в нижней части сайта
+  expected-result: |
+    при нажатии на Current version link открывается страница github
+
+- summary: |
+    проверка запросов на каждой странице при использовании каждой кнопки 
+  requirement: |
+    при открытии каждой страницы и использовании каждой кнопки все запросы должны быть co статусом 200
+  prerequisites: |
+    нужно быть залогиненым
+  test-data: |
+    https://codebattle.hexlet.io/#lobby
+    https://codebattle.hexlet.io/#tournaments
+    https://codebattle.hexlet.io/#completedGames
+    https://codebattle.hexlet.io/users/10844
+    https://codebattle.hexlet.io/settings
+    https://codebattle.hexlet.io/users
+    https://codebattle.hexlet.io/tasks
+    https://codebattle.hexlet.io/tournaments
+  steps:
+    - открыть и проверить каждый линк
+    - проверить каждую кнопку
+  expected-result: |
+    при открытии каждой страницы и использовании каждой кнопки все запросы должны быть co статусом 200
+
+- summary: |
+    проверка You may want to create one на вкладке tournaments
+  requirement: |
+    при нажатии на You may want to create one открывается страница tournaments
+  prerequisites: |
+    https://codebattle.hexlet.io/#tournaments
+  test-data: |
+    []
+  steps:
+    - нажать на линк You may want to create one
+  expected-result: |
+    при нажатии на You may want to create one открывается страница tournaments
+
+- summary: |
+    проверка линков на профили пользователей на completedGames
+  requirement: |
+    при нажатии на любой никнейм должен открываться соответствующий профиль
+  prerequisites: |
+    https://codebattle.hexlet.io/#completedGames
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм 
+  expected-result: |
+    при нажатии на любой никнейм должен открываться соответствующий профиль
+
+- summary: |
+    проверка show btn на completedGames
+  requirement: |
+    при нажатии на кнопку show открывается выбранный матч
+  prerequisites: |
+    https://codebattle.hexlet.io/#completedGames
+  test-data: |
+    []
+  steps:
+    - выбрать любой матч и нажать на show btn
+  expected-result: |
+    при нажатии на кнопку show открывается выбранный матч
+    
+- summary: |
+    Проверка Task/Output вкладок в матче
+  requirement: |
+    при переключении вкладок должна появляться актуальная информация
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - переключение вкладок Task/Output
+  expected-result: |
+    при переключении вкладок должна появляться актуальная информация
+
+- summary: |
+    Проверка переключения языка RU/EN в матче
+  requirement: |
+    при переключении RU/EN язык таска должен переключаться на соответствующий
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - переключение RU/EN
+  expected-result: |
+    при переключении RU/EN язык таска должен переключаться на соответствующий
+
+- summary: |
+    Проверка Show guide в матче
+  requirement: |
+    При нажатии на Show guide открывается модал с обучением
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - use Show guide
+  expected-result: |
+    При нажатии на Show guide открывается модал с обучением
+
+- summary: |
+    Проверка чата в матче
+  requirement: |
+    У пользователей должна быть возможноть отправлять сообщения друг другу
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - отправить hello 
+  expected-result: |
+    У пользователей должна быть возможноть отправлять сообщения друг другу
+    
+- summary: |
+    Проверка модала при проигрыше в схватке
+  requirement: |
+    при проигрыше в схватке пользователь должен увидеть соответствующий модал
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - проиграть схватку
+  expected-result: |
+    при проигрыше в схватке пользователь должен увидеть соответствующий модал  
+
+- summary: |
+    Проверка кнопки 'x' в модале проигрыша в схватке
+  requirement: |
+    кнопка 'x' должнa закрывать модал
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - проиграть схватку
+    - нажать на 'x' 
+  expected-result: |
+    кнопка 'x' закрывает модал
+
+- summary: |
+    Проверка кнопки в модале проигрыша в схватке
+  requirement: |
+    кнопка должны закрывать модал
+  prerequisites: |
+    должен находиться в матче
+  test-data: |
+    []
+  steps:
+    - проиграть схватку
+    - нажать на 
+  expected-result: |
+    кнопка должны закрывать модал
+
+- summary: |
+    Переключение general/Notification в чате в схватке
+  requirement: |
+    чат должен переключаться на соответствующий
+  prerequisites: |
+    нужно быть в схватке
+  test-data: |
+    []
+  steps:
+    - выбрать Notification 
+  expected-result: |
+    чат должен переключаться на соответствующий
+   
+- summary: |
+    Взаимодействие с профилем пользователя, который находится в схватке
+  requirement: |
+    При нажатии на никнейм пользователя должено открываться контекстное меню
+  prerequisites: |
+    нужно быть в схватке
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+  expected-result: |
+    При нажатии на никнейм пользователя должено открываться контекстное меню
+    
+- summary: |
+    Copy name в контекстном меню в чате пользователей в схватке при нажатии на никнейм пользователя
+  requirement: |
+    При нажатии на Copy name в контекстном меню имя пользователя должно копироваться без рейтинга в скобках
+  prerequisites: |
+    нужно быть в схватке
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на Copy name
+  expected-result: |
+    При нажатии на Copy name в контекстном меню имя пользователя должно копироваться без рейтинга в скобках
+    
+- summary: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя в схватке
+  requirement: |
+    При нажатии на info в контекстном меню должна открываться страница профиля пользователя
+  prerequisites: |
+    нужно быть в схватке
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+    - нажать на info
+  expected-result: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+
+- summary: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей в схватке когда пользователь уже находится матче
+  requirement: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей в схватке, если пользователь уже находится в матче
+  prerequisites: |
+    нужно быть залогиненым
+  test-data: |
+    []
+  steps:
+    - выбрать любого пользователя и нажать на никнейм
+  expected-result: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей в схватке, если пользователь уже находится в матче
+
+- summary: |
+    Проверка Open hystory в матче
+  requirement: |
+    должна отображаться актуальная информация
+  prerequisites: |  
+    нужно быть в матче
+  test-data: |
+    []
+  steps:
+    - нажать на Open hystory в матче
+  expected-result: |
+    должна отображаться актуальная информация
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
