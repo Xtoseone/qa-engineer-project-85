@@ -834,7 +834,6 @@
     - use week filter
     - use month filter
     - use all filter
-
   expected-result: |
     при выборе фильтра week/month/all должны отображаться актуальные данные  
 
