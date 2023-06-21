@@ -1,0 +1,408 @@
+---
+- summary: |
+    Проверка кнопки  Codebattle by Hexlet’s community  на главной странице
+  status: pass
+  
+- summary: |
+    Проверка кнопки  Try simple battle на главной странице
+  status: pass
+ 
+- summary: |
+    Проверка Sign in в Header
+  status: pass  
+  
+- summary: |
+    Проверка Sign Up в Header
+  status: pass 
+  
+- summary: |
+    Проверка адаптации страницы к различным размерам экранов
+  status: pass 
+  
+- summary: |
+    Проверка иконок профиля пользователей внизу страницы Contributors
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Codebattle в Contributors
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Battle asserts в Contributors
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Chrome extension в Contributors
+  status: pass 
+  
+- summary: |
+    Проверка кнопки  Try simple battle на главной странице внизу страницы
+  status: pass 
+  
+- summary: |
+    Проверка регистрации пользователя 
+  status: pass   
+  
+- summary: |
+    Проверка регистрации пользователя через Гитхаб
+  status: pass  
+  
+- summary: |
+    Проверка регистрации пользователя через Discord
+  status: pass 
+  
+- summary: |
+    Проверка регистрации пользователя неправильные данные
+  status: pass 
+  
+- summary: |
+    Проверка регистрации пользователя отправка пустых полей
+  status: pass 
+  
+- summary: |
+    Проверка формы входа в систему
+  status: pass 
+  
+- summary: |
+    Проверка формы входа в систему c верными данными
+  status: pass 
+  
+- summary: |
+    Проверка формы входа в систему c не верными данными
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Codebattle by Hexlet’s community в Header в лобби
+  status: pass 
+  
+- summary: |
+    Проверка лобби по URL пользователь не залогинен
+  status: pass   
+  
+- summary: |
+    Проверка кнопки invites в Header 
+  status: pass  
+  
+- summary: |
+    Проверка кнопки My Profile в Header
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Setting
+  status: pass 
+  
+- summary: |
+    Проверка поле Your name странница Setting
+  status: pass 
+  
+- summary: |
+    Проверка the dropdown Your Weapons странница Setting
+  status: pass 
+  
+- summary: |
+    Проверка поле Your name странница Setting wrong data
+  status: pass 
+  
+- summary: |
+    Проверка поле Your name странница Setting wrong data
+  status: pass 
+  
+- summary: |
+    Проверка checkboxes Select sound type
+  status: pass 
+  
+- summary: |
+    Проверка Link Github
+  status: pass   
+  
+- summary: |
+    Проверка Link Discord
+  status: pass  
+  
+- summary: |
+    Проверка Users rating
+  status: pass 
+  
+- summary: |
+    Проверка time filters weekly/monthly/total 
+  status: pass 
+  
+- summary: |
+    Проверка  Search panel right data
+  status: pass 
+  
+- summary: |
+    Проверка  Search panel wrong data
+  status: pass 
+  
+- summary: |
+    Проверка различных фильтров на странице Users rating
+  status: pass 
+  
+- summary: |
+    Проверка сортировки на странице Users rating
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Profile в стобце User
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Github в соответствующей колонке
+  status: pass   
+  
+ - summary: |
+    Проверка пагинации
+  status: pass  
+  
+- summary: |
+    Проверка кнопки Сreate new task на странице Task
+  status: pass 
+  
+- summary: |
+    Проверка кнопки back на странице new Task
+  status: pass 
+  
+- summary: |
+    Проверка отправки пустой формы на странице new Task
+  status: pass 
+  
+- summary: |
+    Проверка отправки неправильных данных на странице new Task
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Task packs
+  status: pass 
+  
+- summary: |
+    Проверка кнопки show
+  status: pass 
+  
+- summary: |
+    Проверка кнопки back в таске
+  status: pass 
+  
+- summary: |
+    Проверка страницы Tournament
+  status: pass   
+  
+- summary: |
+    Проверка отправки пустой формы на странице Tournament
+  status: pass 
+  
+- summary: |
+    создания турнира типа individual
+  status: pass 
+  
+- summary: |
+    создания турнира типа team
+  status: pass 
+  
+- summary: |
+    создания турнира типа stairway
+  status: pass 
+  
+- summary: |
+    проверка input полей на странице Tournaments
+  status: pass   
+  
+ - summary: |
+    проверка input поля Match timeout in seconds на странице Tournaments - отрицательное значение
+  status: pass  
+  
+- summary: |
+    проверка input поля Match timeout in seconds на странице Tournaments - значение>1000
+  status: pass 
+  
+- summary: |
+    проверка линков Sourcecode/Hexlet/Join Discord/Tg#codebattle в меню profile
+  status: pass 
+  
+- summary: |
+    проверка кнопки sign out
+  status: pass 
+  
+- summary: |
+    проверка вкладок lobby/tournamets/completed games/leadearboard
+  status: pass 
+  
+- summary: |
+    проверка create a game
+  status: pass 
+  
+- summary: |
+    проверка модала create a game
+  status: pass 
+  
+- summary: |
+    Проверка time filter в leaderboard 
+  status: pass 
+  
+- summary: |
+    Проверка открытия профиля пользователя в Leaderboard 
+  status: pass   
+  
+- summary: |
+    Проверка Top list в Leaderboard
+  status: pass 
+  
+- summary: |
+    Проверка профиля пользователя в меню lobby
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Continue
+  status: pass 
+  
+- summary: |
+    Проверка кнопки Fight
+  status: pass 
+  
+- summary: |
+    Переключение general/Notification в чате на странице lobby
+  status: pass   
+  
+ - summary: |
+    отправка сообщений в чате
+  status: pass  
+  
+- summary: |
+    Взаимодействие с профилем пользователя, который находится в онлайне
+  status: pass 
+  
+- summary: |
+    Copy name в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  status: pass 
+  
+- summary: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  status: pass 
+  
+- summary: |
+    direct messege в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  status: pass 
+  
+- summary: |
+    send an invite в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+  status: pass 
+  
+- summary: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей когда пользователь уже находится матче
+  status: pass 
+  
+- summary: |
+    Попробовать открыть второй матч подряд
+  status: pass 
+  
+- summary: |
+    проверка Current version link
+  status: pass     
+ 
+- summary: |
+    проверка запросов на каждой странице при использовании каждой кнопки 
+  status: pass   
+  
+- summary: |
+    проверка You may want to create one на вкладке tournaments
+  status: pass 
+  
+- summary: |
+    проверка линков на профили пользователей на completedGames
+  status: pass 
+  
+- summary: |
+    проверка show btn на completedGames
+  status: pass 
+  
+- summary: |
+    Проверка Task/Output вкладок в матче
+  status: pass 
+  
+- summary: |
+    Проверка переключения языка RU/EN в матче
+  status: pass   
+  
+- summary: |
+    Проверка Show guide в матче
+  status: pass  
+  
+- summary: |
+    Проверка чата в матче
+  status: pass 
+  
+- summary: |
+    Проверка модала при проигрыше в схватке
+  status: pass 
+  
+- summary: |
+    Проверка кнопки 'x' в модале проигрыша в схватке
+  status: pass 
+  
+- summary: |
+    Проверка кнопки I'll be back в модале проигрыша в схватке
+  status: pass 
+  
+- summary: |
+    Переключение general/Notification в чате в схватке
+  status: pass 
+  
+- summary: |
+    Взаимодействие с профилем пользователя, который находится в схватке
+  status: pass 
+  
+- summary: |
+    Copy name в контекстном меню в чате пользователей в схватке при нажатии на никнейм пользователя
+  status: pass 
+  
+- summary: |
+    info в контекстном меню в чате пользователей при нажатии на никнейм пользователя в схватке
+  status: pass     
+  
+- summary: |
+    send an invite должна быть отключена в контекстном меню в чате пользователей в схватке когда пользователь уже находится матче
+  status: pass   
+  
+- summary: |
+    Проверка Open hystory в матче
+  status: pass 
+  
+- summary: |
+    Проверка Send an invite находясь в чужом матче
+  status: pass 
+  
+- summary: |
+    Проверка выпадающего списка с языками программирования
+  status: pass 
+  
+- summary: |
+    Проверка Vim mode
+  status: pass 
+  
+- summary: |
+    Проверка переключении темы light/dark
+  status: pass   
+  
+ - summary: |
+    Проверка give up
+  status: pass  
+  
+- summary: |
+    Проверка reset editor 
+  status: pass 
+  
+- summary: |
+    Проверка check solution
+  status: pass 
+  
+- summary: |
+    Проверка rematch
+  status: pass 
+  
+- summary: |
+    Проверка thanks кнопки в модале победителя
+  status: pass 
+  
+- summary: |
+    Проверка 'x' кнопки в модале победителя
+  status: pass 
