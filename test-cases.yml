@@ -154,6 +154,19 @@
     - воодим данные и нажимаем submit
   expected-result: |
     При заполнении всех полей верными данными пользователь будет зарегистрирован
+
+- summary: |
+    Создание аккаунта с несуществующим e-mail 
+  requirement: |
+    Должно приходить подтверждение на почту о создании аккаунта
+  prerequisites: |
+    открыта страница Sign up https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+    Nickname:TestTestTest email: testhexlet.tester@mail.com pass: 1234567890
+  steps:
+    - воодим данные и нажимаем submit
+  expected-result: |
+    При заполнении всех полей на почту должено прийти подтверждение email    
     
 - summary: |
     Проверка регистрации пользователя через Гитхаб
@@ -1426,3 +1439,18 @@
     - нажать на 'x'
   expected-result: |
     Кнопка 'x' должна закрывать модал
+
+- summary: |
+    Проверка возможности просмотра повтора игры
+  requirement: |
+    Пользователь имеет возможность посмотреть повтор завершенной игры
+  prerequisites: |
+    Пользователь авторизован. Открыта главная страница.
+  test-data: |
+    Login = marianna123 Password = password123
+  steps:
+    - Открыть вкладку 'Completed games'
+    - Нажать 'Show' напротив любой игры
+    - Нажать на кнопку воспроизведения слева внизу
+  expected-result: |
+    Воспроизводится повтор игры.
