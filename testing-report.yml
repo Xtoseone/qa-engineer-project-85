@@ -175,7 +175,7 @@
     Проверка кнопки Github в соответствующей колонке
   status: pass   
   
- - summary: |
+- summary: |
     Проверка пагинации
   status: pass  
   
