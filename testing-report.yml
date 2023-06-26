@@ -41,11 +41,7 @@
   
 - summary: |
     Проверка регистрации пользователя 
-  status: pass   
-
-- summary: |
-    Создание аккаунта с несуществующим e-mail 
-  status: fail   
+  status: pass     
   
 - summary: |
     Проверка регистрации пользователя через Гитхаб
@@ -56,8 +52,16 @@
   status: pass 
   
 - summary: |
-    Проверка регистрации пользователя неправильные данные
+    Проверка регистрации пользователя неправильные данные в поле Nickname
   status: pass 
+
+- summary: |
+    Проверка регистрации пользователя неправильные данные в поле email  
+  status: pass
+
+- summary: |
+    Проверка регистрации пользователя неправильные данные в поле password
+  status: pass
   
 - summary: |
     Проверка регистрации пользователя отправка пустых полей
@@ -72,8 +76,16 @@
   status: pass 
   
 - summary: |
-    Проверка формы входа в систему c не верными данными
+    Проверка формы входа в систему c не верными данными неправильный email
   status: pass 
+
+- summary: |
+    Проверка формы входа в систему c не верными данными неправильный password
+  status: pass 
+
+- summary: |
+    Проверка формы входа в систему c не верными данными не существующий аккаунт
+  status: pass
   
 - summary: |
     Проверка кнопки Codebattle by Hexlet’s community в Header в лобби
@@ -100,7 +112,7 @@
   status: pass 
   
 - summary: |
-    Проверка the dropdown Your Weapons странница Setting
+    Проверка выпадающего списка Your Weapons странница Setting
   status: pass 
   
 - summary: |
@@ -112,15 +124,23 @@
   status: pass 
   
 - summary: |
-    Проверка checkboxes Select sound type
+    Проверка чекбоксов Select sound type
   status: pass 
   
 - summary: |
-    Проверка Link Github
+    Проверка ссылки Github
   status: pass   
+
+- summary: |
+    Проверка привязки к Gitgub Пользователь залогинен через Github
+  requirement: |  
   
 - summary: |
-    Проверка Link Discord
+    Проверка ссылки Discord
+  status: pass  
+
+- summary: |
+    Проверка привязки к Discord Пользователь залогинен через Discord
   status: pass  
   
 - summary: |
@@ -128,7 +148,7 @@
   status: pass 
   
 - summary: |
-    Проверка time filters weekly/monthly/total 
+    Проверка временных фильтров weekly/monthly/total 
   status: pass 
   
 - summary: |
@@ -236,8 +256,16 @@
   status: pass 
   
 - summary: |
-    проверка модала create a game
+    Создание игры с другими игроками
   status: pass 
+
+- summary: |
+    Создание игры с ботом
+  status: pass  
+
+- summary: |
+    Создание игры с другом
+  status: pass   
   
 - summary: |
     Проверка time filter в leaderboard 
@@ -264,10 +292,18 @@
   status: pass 
   
 - summary: |
-    Переключение general/Notification в чате на странице lobby
+    Переключение чата General на Notification в верхнем левом углу чата на странице lobby
   status: pass   
+
+- summary: |
+    Переключение чата Notification на General в верхнем левом углу чата на странице lobby
+  status: pass
+
+- summary: |
+    Переключение чата на Приватный в верхнем левом углу чата на странице lobby
+  requirement: |  
   
- - summary: |
+- summary: |
     отправка сообщений в чате
   status: pass  
   
@@ -288,15 +324,15 @@
   status: pass 
   
 - summary: |
-    send an invite в контекстном меню в чате пользователей при нажатии на никнейм пользователя
+    send an invite в контекстном меню в чате пользователей при нажатии на никнейм пользователя. Не в матче
   status: pass 
+
+- summary: |
+    send an invite в контекстном меню в чате пользователей при нажатии на никнейм пользователя. В матче
+  requirement: |  
   
 - summary: |
-    send an invite должна быть отключена в контекстном меню в чате пользователей когда пользователь уже находится матче
-  status: pass 
-  
-- summary: |
-    Попробовать открыть второй матч подряд
+    Проверка невозможности создать второй мачт
   status: pass 
   
 - summary: |
@@ -348,7 +384,11 @@
   status: pass 
   
 - summary: |
-    Переключение general/Notification в чате в схватке
+    Переключение чата с General на Notification в схваткее
+  status: pass 
+
+- summary: |
+    Переключение чата с Notification на General в схватке
   status: pass 
   
 - summary: |
