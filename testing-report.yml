@@ -231,7 +231,7 @@
     проверка input полей на странице Tournaments
   status: pass   
   
- - summary: |
+- summary: |
     проверка input поля Match timeout in seconds на странице Tournaments - отрицательное значение
   status: pass  
   
